@@ -1,0 +1,19 @@
+{
+  "name": "school-backend",
+  "version": "1.0.0",
+  "description": "A beginner-friendly backend REST API with MySQL. Part of a two-project teaching setup.",
+  "main": "server.js",
+  "scripts": {
+    "build": "node build.js",
+    "migrate": "node migrate.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  },
+  "keywords": ["school", "backend", "mysql", "beginner", "teaching"],
+  "license": "MIT"
+}
